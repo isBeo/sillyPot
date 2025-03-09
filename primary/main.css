@@ -85,6 +85,7 @@ main h3{
     font-size: 2.2em;
     text-shadow: 0 0 2px red;
     margin-block:20px;
+    text-align: center;
 
 }
  .zara{
@@ -118,6 +119,8 @@ ul{
     font-size: 1.2em;
     margin-block:20px;
     width: 100%;
+    align-items: center;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.468);
     padding: 10px  40px;
     text-align: justify;
@@ -126,6 +129,12 @@ ul{
     text-shadow: 2px 1px 2px black;
     border-radius: 9px;
     /* text-shadow: 1px 1px rgba(164, 30, 9, 0.32); */
+}
+
+ul>li{
+    background-color: rgba(0, 0, 0, 0.442);
+    width: fit-content;
+    padding:3px;
 }
 
 footer {
@@ -248,6 +257,15 @@ button {
     font-weight: 600; /* Slightly bolder font */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+#hbd{
+    background-image: url(../images/primary/zarahbd.jpeg);
+    background-position: top left;
+    /* background-position: ; */
+    background-size: cover ;
+    background-repeat: no-repeat;
+
 }
 
 button:hover {
