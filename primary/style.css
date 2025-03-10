@@ -162,7 +162,43 @@ section {
     border-radius: 8px 8px 0 0; /* Rounded corners for the top of the image */
     margin-bottom: 10px;
 }
+/* ... your existing CSS ... */
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
+}
+
+nav ul li {
+    margin: 5px; /* Add some spacing between buttons */
+}
+
+.nav-button {
+    background-color: var(--themeColor); /* Use your theme color */
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: color-mix(in srgb, var(--themeColor), black 20%); /* Darken on hover */
+}
+
+@media (min-width: 540px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav ul {
+        justify-content: flex-start; /*align buttons to the left on larger screens*/
+    }
+}
 .menu-item {
     /* ... your existing menu-item styles ... */
     display: flex; /* Added for flexbox layout */
