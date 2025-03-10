@@ -1,139 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Silly Pot</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tasty Bistro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
-
-
     <header>
-        <div class="logo">
-            <img src="../images/primary/spLogo.jpeg" alt="" width="100%">
-        </div>
-        <h1>Silly Pot </h1>
+        <h1>The Tasty Bistro</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
 
-
-    <div class="cta">
-        <button>
-            Contact Us
-        </button>
-        <button  id='aboutUsToggle' class="btn nav">
-            About Us
-        </button>
-        <button>
-            
-            <i class="fa-solid fa-bars"></i>
-        </button>
-</div>
-
-
-
-<main>
-    <h3>SillyPot Presents</h3>
-    <p class="zara">Birthday bash with Zara</p>
-    <p></p>
-    <ul class="screen a" id="hbd">
-        <li>Food and Drinks</li>
-        <li>Games</li>
-        <li>Vibz</li>
-        <li>more...</li>
-        <li>Come taste the menu of Silly Pot</li>
-    </ul>
-    
-    <div class="container">
-        <h2>Contact Silly Pot</h2>
-
-        <div class="contact-info">
-            <!-- <p><i class="fas fa-map-marker-alt"></i> 123 Silly Street, Pot City, Nigeria</p> -->
-            <p><i class="fas fa-phone"></i> +234-814-463-7428</p>
-            <address><a href="mailto:Sillypot55@gmail.com"><i class="fas fa-envelope"></i> Sillypot55@gmail.com</a></address>
-            <p><a href="https://wa.me/23408144637428"  target="_blank"><i class="fab fa-whatsapp"></i> Chat with us on WhatsApp</a></p>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Culinary Delights</h2>
+            <p>Experience the finest flavors in town.</p>
+            <a href="#menu" class="button">View Menu</a>
         </div>
+    </section>
 
-        <!-- <form>
-           <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-           </div>
-
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-
-            <div class="txtArea">
-                <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Pasta Primavera</h3>
+                <p>Fresh vegetables and pasta in a creamy sauce.</p>
+                <span class="price">$12.99</span>
             </div>
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p>Perfectly grilled salmon with roasted potatoes.</p>
+                <span class="price">$18.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chocolate Lava Cake</h3>
+                <p>Warm chocolate cake with a molten center.</p>
+                <span class="price">$8.99</span>
+            </div>
+            </div>
+    </section>
 
-            <button type="submit">Send Message</button>
-        </form> -->
-    </div>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>The Tasty Bistro is a family-owned restaurant dedicated to serving delicious and authentic cuisine. We use only the freshest ingredients and strive to provide a memorable dining experience.</p>
+    </section>
 
-    <div class="container">
-        <h2>About SillyPot</h2>
-        <p>Welcome to SillyPot, where we're redefining dining by bringing together the rich flavors of Nigeria and the vibrant tastes of Korea. We believe in celebrating culinary diversity through innovative dishes that surprise and delight.</p>
-        <p>Our chefs are passionate about using fresh, locally sourced ingredients to create authentic Nigerian favorites with a modern twist. Alongside, we offer a carefully curated selection of Korean specialties, allowing you to experience the best of both worlds.</p>
-        <p>Whether you're craving the comforting warmth of jollof rice or the exciting spice of kimchi, Silly Pot is your culinary destination. Join us on a flavorful journey that transcends borders!</p>
-    </div>
-    
-</main>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>123 Main Street, Cityville</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Email: info@tastybistro.com</p>
+    </section>
 
-<footer>
-    <div class="footer-content">
-        <div class="social-links">
-            <a href="https://www.facebook.com/share/1AKxwLV653/?mibextid=wwXIfr" target="_blank" aria-label="Facebook">
-                <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="https://www.instagram.com/247withzee?igsh=aGE2dHEwbWt2eHBo" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://x.com/kubizarah?s=21" target="_blank" aria-label="Twitter">
-                <i class="fab fa-twitter-square"></i>
-            </a>
-            <!-- <a href="#" target="_blank" aria-label="YouTube">
-                <i class="fab fa-youtube"></i>
-            </a> -->
-            <a href="https://wa.me/23408144637428" target="_blank" aria-label="WhatsApp">
-              <i class="fab fa-whatsapp"></i>
-            </a>
-        </div>
-        <div class="contact-info">
-            <p><i class="fas fa-map-marker-alt"></i> 123 Innovative Street, City, State</p>
-            <p><i class="fas fa-phone"></i> +23408144637428</p>
-            <p><i class="fas fa-envelope"></i> Sillypot55@gmail.com</p>
-        </div>
-        <div class="copyright">
-            <p>&copy; 2024 Innovative Eats. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
-    
-    
-    
-    
-    <script src='main.js'></script>
-
-
-
-
-    <script>
-       
-    </script>
-
-
-
-
-
-
+    <footer>
+        <p>&copy; 2024 The Tasty Bistro</p>
+    </footer>
 </body>
 </html>

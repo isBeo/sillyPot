@@ -7,49 +7,55 @@
 
 }
 body{
-    background-image: url('../images/primary/sillyPotKitchen.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width:700px;
-    min-width: 400px;
-    height: 100vh;
-    
-    padding:50px;
-    background-position:left center;
-    background-clip: content-box;
-    background-color: rgba(165, 42, 42, 0.262);
-    background-attachment: fixed;
+    /* background-image: url('../images/primary/sillyPotKitchen.jpeg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* max-width:700px; */
+    /* min-width: 320px; */
+    width:320px;
+    /* height: 100vh; */
+    /* padding:50px; */
+    /* background-position:left center; */
+    /* background-clip: content-box; */
+    /* background-color: rgba(165, 42, 42, 0.262); */
+    /* background-attachment: fixed; */
     margin-inline:auto;
-    
 }
 
 
 header{
     /* outline:2px solid red; */
-
+    margin:0 20px 30px 0 ;
     display: flex;
-    gap:50px;
+    /* gap:50px; */
+    font-size: .2em;
     justify-content: space-between;
     align-items: center;
+    /* padding:20px; */
     background-color: rgba(3, 2, 1, 0.319);
-    height: 80px;
+    /* height: 80px; */
     width: 100%;
 }
 header .logo{
     position: absolute;
-    width: 100px;
+    width: 40px;
+    height: 100%;
     top:0;
     right: 0;
 }
+header .logo img{
+    width: 100%;
+    height: 100%;
+}
 
 header h1{
-    text-shadow: 2px 3px 1px black;
+    text-shadow: 0 0 1px black;
     display:block;
     color:burlywood;
     /* text-align: center; */
     margin:0 auto;
-    background-color: black;
-    padding:20px;
+    /* background-color: black; */
+    /* padding:20px; */
     border-radius: 12px;
     /* outline:1px solid pink; */
 
@@ -103,7 +109,15 @@ main h3{
     border-radius: 8px;
     border:none;
 
+
 }
+ .hero{
+    width: 100vw;
+    padding:30px;
+    outline:2px solid tomato;
+    border-radius: 9px;
+ }
+
 /* i{
     font-size: 1.9em;
     color:white;
@@ -130,7 +144,13 @@ ul{
     border-radius: 9px;
     /* text-shadow: 1px 1px rgba(164, 30, 9, 0.32); */
 }
-
+.hero{
+    width: 100vw;
+    outline:5px solid tomato;
+}
+.hero img{
+    width: 100%;
+}
 ul>li{
     background-color: rgba(0, 0, 0, 0.442);
     width: fit-content;
@@ -193,7 +213,8 @@ footer {
 h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: #e91e63;
+    background-color: #eb3636;
+    color: #070101;
     font-size: 2.5em; /* Larger heading */
     letter-spacing: 0.5px; /* Improved letter spacing */
 }
@@ -281,6 +302,9 @@ button:active {
     justify-content: space-between;
     align-items: center;
 }
+
+
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .container {
