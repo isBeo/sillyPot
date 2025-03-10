@@ -48,7 +48,7 @@ nav a {
 }
 
 .hero {
-    background-image: url('../images/primary/sillyPotKitchen.jpeg'); /* Replace with your image */
+    background-image: url('https://unsplash.com/photos/a-kitchen-counter-with-a-knife-and-some-food-on-it-9K4Xh6PodlM'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     color: #fff;
