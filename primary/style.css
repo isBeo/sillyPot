@@ -99,7 +99,7 @@ nav a {
 
 .hero {
     height: 60vh;
-    background-image: url('https://images.unsplash.com/photo-1572656934803-d2162b2e98bf?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29vZGVuJTIwa2l0Y2hlbnxlbnwwfHwwfHx8MA%3D%3D'); /* Replace with your image */
+    /* background-image: url('https://images.unsplash.com/photo-1572656934803-d2162b2e98bf?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29vZGVuJTIwa2l0Y2hlbnxlbnwwfHwwfHx8MA%3D%3D'); Replace with your image */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -108,13 +108,13 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../images/primary/zarahbd.jpeg');
 }
 
 .hero-content {
     /* display: flex; */
     background-color: rgba(0, 0, 0, 0.445);
     /* margin-block:50px; */
-    background-image: url('../images/primary/zarahbd.jpeg');
     background-size: cover;
     /* margin-left:80px; */
 
